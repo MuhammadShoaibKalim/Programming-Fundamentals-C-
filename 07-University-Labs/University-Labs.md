@@ -50,7 +50,28 @@ int isPrime(long n)
 
 ### Lab-Correction-02
 **Task**: This program demonstrates sum of natural numbers. Identify and correct errors.
+```
+//class, constructor
+#include <iostream>
+using namespace std;
 
+class Car {
+  public:
+    void Car(){}
+    int speed(int maxSpeed);
+
+}
+
+int Car:speed(int maxSpeed) {
+  return maxSpeed;
+}
+
+int main() {
+  Car myObj;  
+  cout << myObj.speed(200); 
+  return 0;
+}
+```
 ### Lab-Program-03
 **Task**: Write a C++ program that sets array ith location value to i+100. Display the values assigned to odd index values of array.
 
