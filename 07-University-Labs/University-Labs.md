@@ -9,6 +9,41 @@ Welcome to the Programming Fundamentals course repository. This repository conta
 
 ### Lab-Correction-01
 **Task**: Identify and correct errors in the following program that is meant to take input of three numbers from user and displays the largest.
+    ```
+    #include <iostream>
+using namespace std;
+
+int isPrime(n);
+
+int main()
+{
+    int num;
+
+    cout << "Enter an integer number: ";
+    cin >> num;
+
+    if(isPrime(nm))
+        cout << num << " is a prime number" << endl;
+    else
+        cout << num << " is not a prime number" << endl;
+
+    return 0;
+}
+
+int isPrime(long n)
+{
+    int prime = 1;
+
+    for(i = 2; i < (n - 1); i++)
+    {
+        if(n % i == 0)
+        {
+            prime = 0;
+            break;
+        }
+    }
+    return prime;
+}```
 
 ### Lab-Program-02
 **Task**: Write a C++ program which displays the average of even numbers and average of odd numbers between a range of numbers. You need to take inputs of lower and higher values of a range and display the averages of even numbers and odd numbers fall between those values.
