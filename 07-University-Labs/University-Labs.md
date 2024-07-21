@@ -77,7 +77,48 @@ int main() {
 
 ### Lab-Correction-03
 **Task**: This program inputs five floating point values in an array and displays the values in reverse order in which the user has entered.
+```
+/* This program implements a class of Book and displays the data of three books entered by user.
+Identify and correct errors
+*/
 
+#include <iostream>
+
+using namespace std;
+
+class book
+{
+string title;
+float price;
+void getdata ();
+public:
+void getdata ();
+void putdata ();
+} ;
+void books : getdata ()
+{
+cout<<"Title:”;
+cin>>title;
+cout<<"Price:”;
+cin>>price;
+}
+void books : putdata ()
+{
+cout<<"Title:"<<title<< "\n";
+cout<<"Price:"<<price<< "\n”;
+int main ()
+{
+books book1, book2, book3;
+book1.getdata();
+book2.getdata();
+book3.getdata();
+book1.putdata();
+book2.putdata();
+book3.putdata();
+
+return 0;
+}
+```
 ### Lab-Program-04
 **Task**: Write a program that uses array of characters to take input from user and checks whether the input represents a palindrome or not, using pointer arithmetic. In both cases the program should display appropriate messages.
 
@@ -89,6 +130,32 @@ int main() {
 
 ### Lab-Correction-05
 **Task**: This program checks and displays if a number is prime. Identify and correct errors.
+   
+```
+//This program is meant to post-increment a time's object and display the results
+#include <iostream>
+using namespace std;
+
+class Time {
+int hr, min;
+public:
+    Time(int h, int m)
+    {
+    hr = h;
+    min = m;
+    }
+   int operator+() 
+    {
+        ++hr;
+        ++min;
+cout << "\n Hours and Minutes " << he << "'" << min; } };
+int main()
+{
+    Time t1(4, 45);
+    t1++;  
+    return 0;
+}
+```
 
 ### Lab-Program-06
 **Task**: Write a program that defines a structure to store BookId, Price and Pages of a book. It declares two structure variables and input values displays the record of the more costly book.
