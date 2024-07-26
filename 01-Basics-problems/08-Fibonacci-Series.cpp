@@ -3,7 +3,7 @@ using namespace std;
 
 // Function to print the Fibonacci series up to 'number' terms
 void FibonacciSeries(int number) {
-    int num1 = 0, num2 = 1, sum;
+    int num1 = 0, num2 = 1, sum; 
 
     cout << num1 << endl;
     cout << num2 << endl;

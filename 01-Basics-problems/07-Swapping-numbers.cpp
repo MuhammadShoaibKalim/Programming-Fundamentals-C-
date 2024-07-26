@@ -21,15 +21,23 @@ int main() {
 
  // swapping the numbers in second way
 
-     num1 = num1 + num2;
-     num2 = num1 - num2;
-     num1 = num1 - num2;
+    //  num1 = num1 + num2;
+    //  num2 = num1 - num2;
+    //  num1 = num1 - num2;
 
+    // printing the swapped numbers
+
+    // cout << "The first number is: " << num1 << endl;
+    // cout << "The second number is: " << num2 << endl;
+
+
+   //swapping numbers in third way
+   swap(num1, num2);
+   
     // printing the swapped numbers
 
     cout << "The first number is: " << num1 << endl;
     cout << "The second number is: " << num2 << endl;
-
     
     return 0;
 }
